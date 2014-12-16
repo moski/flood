@@ -1,6 +1,6 @@
 # Flood
 
-TODO: Write a gem description
+TODO: A Torrent client using the beautiful ruby language
 
 ## Installation
 
