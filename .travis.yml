@@ -1,6 +1,6 @@
 language: ruby
 bundler_args: --without guard
-script: "bundle exec rake ci"
+script: "bundle exec rake"
 rvm:
   - 1.9.2
   - 1.9.3
