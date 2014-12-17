@@ -25,8 +25,6 @@ def fixture(file)
   File.new(fixture_path + '/' + file)
 end
 
-
-
 def capture_warning
   begin
     old_stderr = $stderr

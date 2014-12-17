@@ -1,5 +1,8 @@
 require 'naught'
 
+#
+# Provide the NullObject interface used accross the flood
+#
 module Flood
   NullObject = Naught.build do |config|
     include Comparable

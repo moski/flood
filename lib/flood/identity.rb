@@ -1,6 +1,10 @@
 require 'flood/base'
 
 module Flood
+  #
+  # Wrapper on top of the torrent class to validate that the initializer always
+  # have an info hash
+  #
   class Identity < Flood::Base
     # Initializes a new object
     #

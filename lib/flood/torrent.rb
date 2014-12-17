@@ -1,13 +1,13 @@
 require 'flood/creatable'
 require 'flood/meta_info'
 
-#
-# Parse the Torrent File for information
-#
-# @attrs usually looks like this:
-# ["announce", "announce-list", "comment", "created by", "creation date", "encoding", "info"]
-#
 module Flood
+  #
+  # Parse the Torrent File for information
+  #
+  # @attrs usually looks like this:
+  # ["announce", "announce-list", "comment", "created by", "creation date", "encoding", "info"]
+  #
   class Torrent < Flood::Identity
     #
     # Parse the created_at into a time format.
@@ -18,7 +18,7 @@ module Flood
     # Every torrent file contains the following fields:
     #
     attr_reader :announce, :comment
-    
+
     #
     # Create a MetaInfo from the info hash
     #
@@ -28,7 +28,7 @@ module Flood
     # Override the == to check meta information class.
     #
     def ==(other)
-      self.info == other.info rescue false
+      info == other.info rescue false
     end
   end
 end

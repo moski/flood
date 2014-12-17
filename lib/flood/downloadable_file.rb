@@ -1,14 +1,14 @@
-#
-# Container for the each file embedded within the torrent.
-#
 module Flood
+  #
+  # Container for the each file embedded within the torrent.
+  #
   class DownloadableFile  < Flood::Base
     attr_accessor :name, :length, :start, :finish
-    
+
     # Initializes a new object
     #
     # @param attrs [Hash]
-    # @raise [ArgumentError] Error raised when supplied argument is missing a: 
+    # @raise [ArgumentError] Error raised when supplied argument is missing:
     # name   key
     # length key
     # start  key
