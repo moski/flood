@@ -1,6 +1,8 @@
 # Flood
 
-TODO: A Torrent client using the beautiful ruby language
+[![Coverage Status](https://coveralls.io/repos/moski/flood/badge.png?branch=master)](https://coveralls.io/r/moski/flood?branch=master)
+
+A Torrent client using the beautiful ruby language
 
 ## Installation
 
